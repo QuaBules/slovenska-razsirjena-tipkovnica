@@ -20,6 +20,10 @@ Verjetno bo sprememb še kaj, ampak v grobem so spremembe sledeče:
 	- nedeljiv presledek je na `AltGr`+`Shift`+`presledek`
 	- `≈` dobiš s kombinacijo `˜` in `~`, `≡` pa s `¯` in `=`
 	- itd.
+- Kaj me še čaka:
+ 	- [x] grške črke
+	- [ ] matematični znaki
+	- [ ] drugo (po navdihu)
 
 ## Razporeditev
 
@@ -45,9 +49,12 @@ Rdeči znaki so mrtve tipke, zeleni so grške črke.
 
 ![lepša slika](readme-resources/slovenska-linux.png)
 
+Spodaj levo je samo tipka, zgoraj levo dobiš s `Shift`, spodaj desno potrebuje `AltGr`, zgoraj desno pa `AltGr`+`Shift`. Na sredini so zelene grške črke.
+
 --------
 
 #### Za tiste, ki hočejo sami zapravljat čas
 
 [Microsoft Keyboard Layout Creator (MSKLC) Version 1.4](https://www.microsoft.com/en-us/download/details.aspx?id=102134)
+
 Jaz sem moral končni DLL skupaj spravit v virtualni Sedmici, mogoče bo kdo imel več sreče in mu bo delalo tudi na 11.
