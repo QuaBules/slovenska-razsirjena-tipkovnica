@@ -1,44 +1,46 @@
-# Slovenska razporeditev tipk za Windows, ki temelji na Linux razporeditvi tipk
+# Slovenska tipkovnica za Windows, ki približno temelji na Linux postavitvi
 
-Ker je dodanih tipk ena celgafuka ([alot](http://hyperboleandahalf.blogspot.com/2010/04/alot-is-better-than-you-at-everything.html)), se bo najprej povzelo tipke, ki bojo dajale drugačne simbole, kot je navada.
+Dolgo časa sem razmišljal, kako bi se dalo čim enostavneje napisati čim več znakov. Kot ljubitelj makro tipkovnic in AHK sem to reševal na različne načine, nikoli mi pa ni padlo na pamet, da bi naredil svojo postavitev.
 
-## Spremenjene tipke v primerjavi s privzeto slovensko razporeditvijo tipkovnice na Windows:
+Nato mi je enkrat v naročje padla [~Linux postavitev](https://github.com/tamius-han/slo-linux-keyboard-layout-for-windows), na kateri temelji moja predelava. Ker nekako vedno padam v raznorazne zajčje luknje, sem nato našel [nemško razširjeno postavitev](https://en.wikipedia.org/wiki/German_extended_keyboard_layout), ki ima v primerjavi z osnovno slovensko ene milijonkrat več znakov. To me je navdihnilo, da sem naredil en odcep in malo popravil, malo razširil razpored.
 
-* Tista tipka zraven 1 zdaj vrača `~` in `` ` `` (nobena ni mrtva tipka)
-* Krativec (`` ` ``) je sedaj mrtva tipka (dead key). Za različico, ki ni mrtva tipka, glej `shift alt-gr V`.
-* `alt-gr M` sedaj vrača `^` namesto `§`
-*Stvari za numerični del tipkovnice: ko pritisneš `shift` (oz. prižgeš caps lock), se decimalni simbol spremeni iz vejice (privzeti format za Slovenijo in večino Evrope) v piko (Severna Amerika, pa verjetno še kaj). Čestitke, caps lock je zdaj za eno zaokroževalno napako bolj uporaben kot prej.
+## Glavne spremembe glede na osnovno slovensko razporeditev
 
-## Spremenjene tipke v primerjavi z slovensko tipkovnico na Linux
+Verjetno bo sprememb še kaj, ampak v grobem so spremembe sledeče:
 
-* `alt-gr M` sedaj vrača `^` namesto `§`, tako kot ga je več kot 10 let (dokler ni nekdo tega spremenil en mesec nazaj)
-* `alt-gr T` in `shift alt-gr T` dajeta `™` namesto `ŧŦ` ker kdo to uporablja
-* Nekaj tipk tretjega in četrtega nivoja nisem dal v razporeditev, ker se mi ni dalo
-* `~` je v linux mrtva tipka, tukaj pa (tako kot na Windows) ni. Dead key različica tipke je na `shift + alt-gr + 1`
-* Zaenkrat nisem preveč pazil, da se tretjenivojske tipke ujemajo z Linux layoutom
-* Stvari za numerični del tipkovnice: ko pritisneš `shift` (oz. prižgeš caps lock), se decimalni simbol spremeni iz vejice (privzeti format za Slovenijo in večino Evrope) v piko (Severna Amerika, pa verjetno še kaj). Čestitke, caps lock je zdaj za eno zaokroževalno napako bolj uporaben kot prej.
-
-Nekega dne bo na voljo linux verzija s tem spremembami. Mogoče. Nobenih jamstev.
+- Krativec ``(`)`` se zdaj obnaša kot krativec, torej je "mrtva tipka".
+- Uradna Linux postavitev je bolj za navdih kot za vodilo, kjer se mi je zdelo smiselno, sem dodal predloge, drugod sem dodal znake po svoje:
+	- različni narekovaji (`„ ″ ’ «`)
+	- nekateri matematični znaki (`‰ ∫ ≤ ≥ ¬ ≈`)
+	- nekateri slovnični znaki (`º ª ə`)
+- Grške črke preko svoje mrtve tipke (dosegljiva prek `AltGr`+`Shift`+`G`).
+- Drugo:
+	- podpisane številke (0-9, +, -, =, oklepaji) so dosegljive prek `AltGr`+`2`, nato pritisneš številko
+	- nadpisane številke (0-9, +, -, =, oklepaji) so dosegljive prek `AltGr`+`3`, nato pritisneš številko
+	- nedeljiv presledek je na `AltGr`+`Shift`+`presledek`
+	- `≈` dobiš s kombinacijo `˜` in `~`, `≡` pa s `¯` in `=`
+	- itd.
 
 ## Razporeditev
 
-Prvi in drug nivo (ko ne pipaš 'alt gr') sta popolnoma enaka (razen tega, ko ), tako da bom preskočil.
+Rdeči znaki so mrtve tipke, zeleni so grške črke.
 
-### Ko pritisneš alt-gr
+Brez dodatnih tipk
+![brez dodatnih tipk](readme-resources/slSI-raz.jpg)
 
-![Tipke, dosegljive z altgr](readme-resources/altgr.png "Tipke, dosegljive z altgr")
+Shift
+![Shift](readme-resources/slSI-razShft.jpg)
 
-### Ko pritisneš shift + alt-gr
+AltGr
+![AltGr](readme-resources/slSI-razAltGr.jpg)
 
-![Tipke, dosegljive s shift + altgr](readme-resources/shift-altgr.png "Tipke, dosegljive s shift + altgr")
+AltGr in Shift
+![AltGr in Shift](readme-resources/slSI-razShftAltGr.jpg)
 
-### Stvari, ki niso razvidne iz slik
+Lepša slika ;)
+![lepša slika](readme-resources/slovenska-linux.png)
 
-`shift alt-gr presledek` da nelomljiv presledek ( `&nbsp;`)
-`alt-gr 2 + [številka, +, -]` da podpisano številko ``, podpisan plus `₊` ali podpisan minus `₋`
-`alt-gr 3 + [številka, +, -]` da nadpisano številko ``, nadpisan plus `⁺` ali nadpisan minus `⁻`
+#### Za tiste, ki hočejo sami zapravljat čas
 
-## Če hočete kucati kaj sami
-
-[Microsoft Keyboard Layout Creator](https://www.microsoft.com/en-us/download/details.aspx?id=22339)
-
+[Microsoft Keyboard Layout Creator (MSKLC) Version 1.4](https://www.microsoft.com/en-us/download/details.aspx?id=102134)
+Jaz sem moral končni DLL skupaj spravit v virtualni Sedmici, mogoče bo kdo imel več sreče in mu bo delalo tudi na 11.
