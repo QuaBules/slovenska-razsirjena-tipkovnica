@@ -25,20 +25,27 @@ Verjetno bo sprememb še kaj, ampak v grobem so spremembe sledeče:
 
 Rdeči znaki so mrtve tipke, zeleni so grške črke.
 
-Brez dodatnih tipk
+#### Brez dodatnih tipk
+
 ![brez dodatnih tipk](readme-resources/slSI-raz.jpg)
 
-Shift
+#### Shift
+
 ![Shift](readme-resources/slSI-razShft.jpg)
 
-AltGr
+#### AltGr
+
 ![AltGr](readme-resources/slSI-razAltGr.jpg)
 
-AltGr in Shift
+#### AltGr in Shift
+
 ![AltGr in Shift](readme-resources/slSI-razShftAltGr.jpg)
 
-Lepša slika ;)
+#### Lepša slika ;)
+
 ![lepša slika](readme-resources/slovenska-linux.png)
+
+--------
 
 #### Za tiste, ki hočejo sami zapravljat čas
 
