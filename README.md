@@ -17,6 +17,7 @@ Verjetno bo sprememb še kaj, ampak v grobem so spremembe sledeče:
 - Drugo:
 	- podpisane številke (0-9, +, -, =, oklepaji) so dosegljive prek `AltGr`+`2`, nato pritisneš številko
 	- nadpisane številke (0-9, +, -, =, oklepaji) so dosegljive prek `AltGr`+`3`, nato pritisneš številko
+    - obkrožene števke: stopinja + števka (`AltGr`+`5`, nato `1/2/.../0`)
 	- nedeljiv presledek je na `AltGr`+`Shift`+`presledek`
 	- `≈` dobiš s kombinacijo `˜` in `~`, `≡` pa s `¯` in `=`
 	- itd.
